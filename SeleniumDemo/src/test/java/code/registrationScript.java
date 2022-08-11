@@ -48,7 +48,7 @@ public class registrationScript extends  Reporter {
 		Thread.sleep(5000);
 		commonPage CP  = new commonPage(driver);
 		CP.SigninClick();
-		CP.StartRegistration("kinngh442@gmail.com");
+		CP.StartRegistration("source@gmail.com");
 		Thread.sleep(8000);
 	}
 	

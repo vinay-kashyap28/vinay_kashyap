@@ -5,8 +5,11 @@
     <classes>
       <class name="code.addToCart">
         <methods>
+          <include name="testaddTocart" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="closeReport"/>
           <include name="close"/>
-          <include name="test1" invocation-numbers="0"/>
+          <include name="setUpReport"/>
           <include name="setUP"/>
         </methods>
       </class> <!-- code.addToCart -->
